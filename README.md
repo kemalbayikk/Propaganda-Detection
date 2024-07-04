@@ -1,1 +1,3 @@
-# Propaganda-Detection
+# Propaganda Detection
+
+In this study, three different language models were run in two different propaganda detection tasks and the results were compared. The models used are DeBERTaV3, LSTM with BERT Word Embeddings (LBWE) and SVM. By selecting these models, a transformer-based model, a model whose word embedding is provided by a transformer-based model but uses LSTM in classification, and a traditional machine learning model that works with word2vec word embeddings were compared. The first task to which these models are applied is to classify whether the sentence contains propaganda or not. The second task is to classify which type of propaganda the sentences containing propaganda contain. In the results obtained, while DeBERTaV3 showed the best performance in the first task, the LBWE model showed the best performance in the second task. In both tasks, SVM achieved the lowest F1 and accuracy scores.
